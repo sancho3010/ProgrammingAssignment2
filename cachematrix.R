@@ -30,3 +30,8 @@ cacheSolve <- function(x, ...) {
         x$setinverse(h)
         h ## Return a matrix that is the inverse of 'x'
 }
+
+##Test
+ #This is a test for the function!
+mt <- matrix(c(1,4,5,3,2,4,5,8,4), nrow = 3)
+invtest <- cachesolve(makeCacheMatrix(mt))
